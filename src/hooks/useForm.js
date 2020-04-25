@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { toast } from "../helpers/toast";
 
 function useForm(initialState, validate, action) {
