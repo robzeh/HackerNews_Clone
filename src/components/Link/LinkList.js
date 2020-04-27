@@ -6,10 +6,13 @@ const LinkList = (props) => {
   const [links, setLinks] = useState([]);
   const isTrending = props.location.pathname.includes("trending");
 
-  useEffect(() => {
-    const unsubscribe = getLinks();
-    return () => unsubscribe();
-  }, [isTrending]);
+  useEffect(
+    () => {
+      const unsubscribe = getLinks();
+      return () => unsubscribe();
+    }, //eslint-disable-next-line
+    [isTrending]
+  );
 
   function getLinks() {
     if (isTrending) {
