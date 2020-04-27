@@ -16,6 +16,7 @@ const Search = () => {
 
   useEffect(() => {
     handleSearch();
+    //eslint-disable-next-line
   }, [filter]);
 
   function getInitialLinks() {
