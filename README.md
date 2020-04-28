@@ -4,3 +4,4 @@ This application was built using React, Ionic and Firebase. Users can sign up an
 # Demo
 [Demo Site](https://hacker-news-clone-6b07d.web.app/news)
 
+![Demo Gif](https://github.com/robzeh/HackerNews_Clone/blob/master/HackerNewsCloneDemo.gif)
